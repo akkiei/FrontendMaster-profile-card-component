@@ -1,0 +1,52 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(./images/bg-pattern-top.svg);
+  background-repeat: repeat-y;
+  background-position: left;
+}
+
+.card {
+  border: 0px;
+  border-style: outset;
+  margin: 10% 30% 40% 30%;
+  width: 500px;
+  height: 500px;
+  border-radius: 25px;
+  background-color: white;
+}
+.upperBlue {
+  background-image: url(./images/bg-pattern-card.svg);
+  background-color: hsl(185, 75%, 50%);
+  width: auto;
+  height: 35%;
+  border-radius: inherit;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+img {
+  margin-top: 25%;
+  margin-left: 40%;
+  border-radius: 45px;
+}
+
+.name {
+  text-align: center;
+}
+
+.lowerCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    border: 0px;
+    border-style: outset;
+    margin: 20% 10% 20% 10%;
+    width: 480px;
+    height: 480px;
+    border-radius: 25px;
+    background-color: white;
+  }
+}
